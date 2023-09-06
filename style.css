@@ -1,0 +1,42 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+/* card iniziale con bottone  */
+.card{
+    height: 100%;
+    background-image: url(/media/header.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    color: white;
+   
+}
+.card-title{
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    line-break: auto;
+    margin-left: 50px;
+}
+.card-text{
+    width: 500px;
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+.btn{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    border-radius: 0%;
+    margin-left: 50px;
+    background-color: goldenrod;
+    border: 0;
+    color: black;
+}
