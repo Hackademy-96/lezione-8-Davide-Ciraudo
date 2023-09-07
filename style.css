@@ -4,16 +4,18 @@
 
 }
 /* card iniziale con bottone  */
-.card{
-    height: 100%;
-    background-image: url(/media/header.jpg);
-    background-size: cover;
-    background-position: bottom;
+.intestazione{
+    height: 50vh;
+    width: 500px;
     display: flex;
-    justify-content: center;
-    border: 0;
+    position: relative;
+    top: 100px;
+    flex-direction: column;
     color: white;
-   
+}
+.card-immage{
+    background: url(./media/wave2.svg) bottom no-repeat, url(media/wave1.svg) 0% 97% no-repeat, linear-gradient(rgb(0,0,0),rgba(255, 255, 255, 0)), url(./media/header.jpg) top no-repeat;
+    height: 60vh;
 }
 .card-title{
     font-size: 60px;
@@ -39,4 +41,5 @@
     background-color: goldenrod;
     border: 0;
     color: black;
+    width: 200px;
 }
