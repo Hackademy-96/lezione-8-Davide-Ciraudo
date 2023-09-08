@@ -3,7 +3,7 @@
 
 
 }
-/* card iniziale con bottone  */
+/* card iniziale con bottone - Intestazione  */
 .intestazione{
     height: 50vh;
     width: 500px;
@@ -42,4 +42,103 @@
     border: 0;
     color: black;
     width: 200px;
+}
+/* inizio header + card con icona e Immagine*/
+.card-box{
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-con-immagine-1{
+    width: 350px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0.5) 84%, rgba(0,0,0,1) 100%), url(./media/1.png);
+    background-size: cover;
+    
+}
+.titolo-card-1{
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    line-break: auto;
+    margin-bottom: 70px;
+    border-bottom: 3px solid orange;
+}
+.card-con-immagine-2{
+    width: 350px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0.5) 84%, rgba(0,0,0,1) 100%), url(./media/2.png);
+    background-size: cover;
+    
+}
+.titolo-card-2{
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    line-break: auto;
+    margin-bottom: 70px;
+    border-bottom: 3px solid orange;
+}
+.card-con-immagine-3{
+    width: 350px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0.5) 84%, rgba(0,0,0,1) 100%), url(./media/3.png);
+    background-size: cover;
+    
+}
+.titolo-card-3{
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    line-break: auto;
+    margin-bottom: 70px;
+    border-bottom: 3px solid orange;
+}
+.card-con-immagine-4{
+    width: 350px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0.5) 84%, rgba(0,0,0,1) 100%), url(./media/4.png);
+    background-size: cover;
+    
+}
+.titolo-card-4{
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    line-break: auto;
+    margin-bottom: 70px;
+    border-bottom: 3px solid orange;
 }
