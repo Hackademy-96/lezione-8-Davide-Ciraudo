@@ -142,3 +142,30 @@
     margin-bottom: 70px;
     border-bottom: 3px solid orange;
 }
+ /* card e icone laterali opposte  */
+ .card-testo{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 500px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 1px 2px 3px 5px rgba(128, 128, 128, 0.1);
+    margin-bottom: 40px;
+ }
+ .row-icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+ }
+ .icone{
+    box-shadow: 1px 2px 3px 5px rgba(128, 128, 128, 0.1);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+ }
